@@ -1,3 +1,10 @@
+# RGB
+https://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb
+https://www.youtube.com/watch?v=AfBFMW76V7k&list=PLSmgMHKHJD00FcRtDGCc-cHsRIYs-NFNw&index=29
+https://www.youtube.com/watch?v=j7lo6i7JHJE&list=PLqq-6Pq4lTTb7JGBTogaJ8bm7f8VCvFkj&index=11
+
+https://www.youtube.com/watch?v=tPYGJM1-qkk&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=28
+
 # HelloWorld
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.

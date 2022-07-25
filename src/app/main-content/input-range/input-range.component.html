@@ -1,0 +1,2 @@
+<label>{{labelTitle}} [{{rangeDetaultVal}}{{type}}]</label>
+<input type="range" min="{{minDef}}" max="{{maxDef}}" [ngModel]="rangeDetaultVal" (ngModelChange)="rangeVal($event)" style="--value:{{sliderValue}}%">

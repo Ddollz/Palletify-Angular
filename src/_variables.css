@@ -1,0 +1,12 @@
+:root {
+  --primary-hex: #bb94a7;
+
+  /* BoxColor Value */
+  --boxColor: hsl(331, 22%, 66%);
+
+  --primary-text: var(--primary-hex);
+
+  /* Slider Value */
+  --value: 50%;
+
+}

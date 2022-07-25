@@ -1,0 +1,8 @@
+<div class="pallete-row">
+  <div class="pallete-group">
+    <div *ngFor ="let i of hexArray;">
+      <app-color-block-list [curHex]="i"></app-color-block-list>
+    </div>
+  </div>
+  <a class="creditPallete" href="https://github.com/Ddollz" target="_blank">by {{name}}</a>
+</div>

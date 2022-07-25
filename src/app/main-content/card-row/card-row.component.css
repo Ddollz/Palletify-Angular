@@ -1,0 +1,21 @@
+
+.card-row {
+  margin: 40px;
+}
+
+.card-row,
+.icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  height: 72px;
+  width: 72px;
+}
+
+.svg-icon {
+  height: 32px;
+  width: 32px;
+}

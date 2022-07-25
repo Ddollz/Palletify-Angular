@@ -1,0 +1,24 @@
+:host(.blockContainer) {
+  display: flex;
+}
+
+.color-card {
+  background-color: var(--boxColor);
+  cursor: pointer;
+  height: 72px;
+  position: relative;
+  width: 72px;
+}
+
+.colorBlockCode {
+  padding-top: 8px;
+  position: absolute;
+  top: 100%;
+  transition: all .2s ease 0s;
+  color: var(--primary-text);
+}
+
+.color-card:not(:hover) .colorBlockCode {
+  opacity: 0;
+  transition: all .6s ease 0s;
+}

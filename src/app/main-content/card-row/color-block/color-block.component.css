@@ -1,0 +1,21 @@
+
+.color-card {
+  background-color: var(--boxColor);
+  cursor: pointer;
+  height: 72px;
+  position: relative;
+  width: 72px;
+}
+
+.colorBlockCode {
+  padding-bottom: 16px;
+  padding-top: 8px;
+  position: absolute;
+  top: 100%;
+  transition: all .2s ease 0s;
+}
+
+.color-card:not(:hover) .colorBlockCode {
+  opacity: 0;
+  transition: all .6s ease 0s;
+}

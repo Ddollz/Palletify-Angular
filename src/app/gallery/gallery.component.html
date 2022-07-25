@@ -1,0 +1,4 @@
+<div class="gallery">
+  <app-header></app-header>
+  <app-pallete *ngFor = "let i of hexArray; let name=index;" [name] = "palleteBy[name]" [hexArray] = "i"></app-pallete>
+</div>

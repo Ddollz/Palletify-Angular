@@ -1,0 +1,30 @@
+header {
+  text-decoration: none;
+  font-size: 34px;
+  line-height: 34px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  width: 100%;
+  padding: calc(50vh - 240px) 0px 80px;
+  color: var(--primary-text);
+}
+
+header:first-child a {
+  color: rgb(170, 170, 170);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--primary-text);
+}
+.form__container{
+  display: flex;
+  justify-content: center;
+}
+.links {
+  display: flex;
+}
+
+.submit {
+  text-decoration: none;
+  margin-left: auto;
+}

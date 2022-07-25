@@ -1,0 +1,29 @@
+.footer {
+  position: fixed;
+  bottom: 1rem;
+  left: 2rem;
+  padding: 40px 80px;
+  color: var(--primary-text);
+}
+
+.activeLink {
+  text-decoration: underline;
+  text-underline-position: under;
+  -webkit-text-decoration-color: var(--primary-text);
+  text-decoration-color: var(--primary-text);
+
+}
+
+.footer a {
+  color: inherit;
+  text-underline-position: under;
+  text-decoration-color: var(--primary-text);
+}
+
+.footer h1 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration-color: var(--primary-text);
+}
